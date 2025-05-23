@@ -1,16 +1,16 @@
 {
   "ESP": {
     "lang": "es",
-    "title": "Nuestros colores favoritos"
+    "title": "Organizador de tareas"
   },
 
   "CAT": {
     "lang": "ca",
-    "title": "Els nostres colors preferits"
+    "title": "Organitzador de tasques"
   },
 
   "ENG": {
     "lang": "en",
-    "title": "Our favorite colors"
+    "title": "Task organizer"
   }
 }

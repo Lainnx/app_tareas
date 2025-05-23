@@ -50,7 +50,7 @@ if (formLogin != "No") {
         }
 
         // alert(`Usuario ${nombre} creado c {orrectamente`)
-        window.location.href = "../colores.php";
+        window.location.href = "../tareas.php";
       })
       .catch((error) => {
         console.log("Error: ", error);

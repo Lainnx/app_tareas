@@ -19,9 +19,9 @@ $idioma = $_SESSION["idioma"] ?? "CAT";
 <body>
 <?php include_once 'modulos/header.php';?>
     <main class="main-index">
-        <section>
-            <!-- <img src="img/<?= $imagenes[$num_random]['src']?>" alt="<?= $imagenes[$num_random]['alt']?>"> -->
-        </section>
+        <!-- <section>
+            <img src="img/<?= $imagenes[$num_random]['src']?>" alt="<?= $imagenes[$num_random]['alt']?>">
+        </section> -->
         <section >
 <?php
 $formulario = $_GET['formulario'] ?? 'login';

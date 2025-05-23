@@ -11,7 +11,7 @@
 <div>
     <label for="password">Contraseña:</label>
     <!-- Acuerdate de poner el required  -->
-    <input type="password" name="password" id="password" maxlength="12">
+    <input type="password" name="password" id="password" maxlength="30">
     <p id="errorPassword"></p>
 </div>
 <div>
