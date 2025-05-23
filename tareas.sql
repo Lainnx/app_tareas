@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS lista_tareas(
     id_tarea INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     id_usuario INT,
     nombre_tarea VARCHAR(200),
+    estado VARCHAR(10) DEFAULT "EN PROCESO",
     fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT fk_usuarios
     FOREIGN KEY (id_usuario)
